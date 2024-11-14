@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(/assets/imgs/car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.firstContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.2rem;
+}
+
+.miImagen{
+    width: 23rem;
+}
+
+.formatImg{
+    width: 10rem;
+    height: 10rem;
+}
+
+.containerAll{ 
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+
+}
+.containerSticker{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+
+.containerH1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.containerP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.boton{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(1 28 49);
+    color: white;
+    margin-bottom: 0.5rem;
+    
+}
+
+.formatSelect{
+    width: 5rem;
+    height: 2rem;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.281);
+}
+
+.divSelect{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.sticker{
+    text-align: center;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 3rem;
+    gap: 5px;
+}
+.footerText{
+    font-size: small;
+
+}
+
+i{
+    color: white;
+}
+
+.icons{
+    display: flex;
+    gap: 0.6rem;
+}
+
+
+
