@@ -23,8 +23,10 @@ let imagen = document.querySelector(".miImagen");
 
         if (totalStickers > 10) {
             mensaje.innerHTML = "Llevas demasiados stickers";
+            mensaje.style.color = 'red';
         } else {
             mensaje.innerHTML = "Llevas " + totalStickers + " sticker" + (totalStickers === 1 ? "" : "s");
+            mensaje.style.color = 'green';
         }
     }
 
